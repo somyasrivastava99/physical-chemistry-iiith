@@ -1,0 +1,42 @@
+body{
+  background: url("Chemistry-Background.jpg") no-repeat center center fixed;
+}
+
+.box{
+  /*width: 500px;*/
+  height: 40px;
+  /*border : 2px solid black;*/
+  background-image: linear-gradient(blue,white,blue);
+  border-radius: 5px;
+  color: black;
+  font-size : 30px; ;
+  text-align: center;
+  padding-top: 5px;
+}
+
+h2{
+  margin-left: 570px;
+}
+
+
+button { 
+  background-image: radial-gradient(white 35%,grey 65%);
+  border: 2px solid #5B4F4D  ;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 590px;
+}
+
+button:hover {
+  background-image: radial-gradient(white 10%,grey 90%);
+  color: black;
+}

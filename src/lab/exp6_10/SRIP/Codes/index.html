@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<br>
+<p></p>
+<div class="box">EXPERIMENT</div>
+<br><br>
+<h2 >Select Any Sample </h2>
+
+<button onclick="myFunc1()" type="button">Sample 1</button> 
+
+<br>
+<button onclick="myFunc2()" type="button">Sample 2</button>
+<p id="b1"></p>
+<p id="b2"></p>
+<br>
+<script>
+function myFunc1() {
+	
+	document.getElementById("b1").innerHTML = "Sample 1 Selected: Select Any Experiment";
+	document.getElementById("b1").style.fontWeight = "bold";
+	document.getElementById("b1").style.textAlign = "center";
+	
+    var btn1 = document.createElement("BUTTON");
+    var btn2 = document.createElement("BUTTON");
+    var btn3 = document.createElement("BUTTON");
+    var t = document.createTextNode("IR Solution");
+    var u = document.createTextNode("Mass Spectroscopy");
+    var v = document.createTextNode("NMR");
+    btn1.setAttribute("style","color:black;font-size:16px");
+    btn2.setAttribute("style","color:black;font-size:16px");
+    btn3.setAttribute("style","color:black;font-size:16px");
+
+    btn1.appendChild(t);
+    btn2.appendChild(u);
+    btn3.appendChild(v);
+    document.body.appendChild(btn1);
+    document.body.appendChild(btn2);
+    document.body.appendChild(btn3);
+
+}
+
+function myFunc2() {
+	document.getElementById("b2").innerHTML = "Sample 2 Selected: Select Any Experiment";
+	document.getElementById("b2").style.fontWeight = "bold";
+	document.getElementById("b2").style.textAlign = "center";
+	
+    var btn1 = document.createElement("BUTTON");
+    var btn2 = document.createElement("BUTTON");
+    var btn3 = document.createElement("BUTTON");
+    var t = document.createTextNode("IR Solution");
+    var u = document.createTextNode("Mass Spectroscopy");
+    var v = document.createTextNode("NMR");
+    btn1.setAttribute("style","color:black;font-size:16px");
+    btn2.setAttribute("style","color:black;font-size:16px");
+    btn3.setAttribute("style","color:black;font-size:16px");
+
+    btn1.appendChild(t);
+    btn2.appendChild(u);
+    btn3.appendChild(v);
+    document.body.appendChild(btn1);
+    document.body.appendChild(btn2);
+    document.body.appendChild(btn3);
+
+}
+
+</script>
+</body>
+</html>
